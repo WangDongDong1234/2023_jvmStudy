@@ -6,7 +6,11 @@
 
     <groupId>org.demo</groupId>
     <artifactId>2023_jvmStudy</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>chapter01</module>
+    </modules>
 
 
 </project>
