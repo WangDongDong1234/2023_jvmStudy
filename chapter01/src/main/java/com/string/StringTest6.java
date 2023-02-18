@@ -5,7 +5,7 @@ public class StringTest6 {
         String s1 ="a"+"b"+"c";  //等同于”abc"
         String s2 ="abc";  //"abc"一定是放在字符串常量池中，将此地址赋给s2
         /**
-         * 最终 java编译成class,在执行class
+         * 最终 java编译成class,在执行class，可以查看反编译的java文件
          * String s1 ="abc"
          * String s2 ="abc"
          */

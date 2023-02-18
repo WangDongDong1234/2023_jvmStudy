@@ -5,7 +5,7 @@ package com.string;
  * 通过StringBuilder的append（）的方式添加字符串的效率要远高于使用String的字符串拼接方式
  * 详情：
  *      1.StringBuilder的append方式，自始自终只创建过一个StringBuilder的对象
- *        使用 String的字符串拼接方式，创建过多个StringBuilder和String的对下给你
+ *        使用 String的字符串拼接方式，创建过多个StringBuilder和String的对象
  *
  *      2.使用String的字符串拼接方式，内存中由于创建了较多的StringBuilder和String的对象，
  *        内存占用更大,如果进行GC,需要花费额外的时间
